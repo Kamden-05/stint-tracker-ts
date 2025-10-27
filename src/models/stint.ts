@@ -1,16 +1,14 @@
-class Stint {
-    constructor(
-        public readonly driver_name: string,
-        public readonly stint_number: number,
+export default interface Stint {
+  driver_name: string;
+  stint_number: number;
 
-        public readonly start_time: number,
-        public readonly start_position: number,
-        public readonly start_fuel: number,
-        public readonly start_incidents: number
-    ) { }
+  start_time: number;
+  start_position: number;
+  start_fuel: number;
+  start_incidents: number;
 
-    public end_time: number | null = null;
-    public end_position: number | null = null;
-    public end_fuel: number | null = null;
-    public end_incidents: number | null = null;
+  end_time: number | null;
+  end_position: number | null;
+  end_fuel: number | null;
+  end_incidents: number | null;
 }
