@@ -1,14 +1,16 @@
 export interface Stint {
-  driver_name: string;
-  stint_number: number;
+  driver: string;
+  number: number;
 
+  // start attributes
   start_time: number;
   start_position: number;
   start_fuel: number;
   start_incidents: number;
 
-  end_time: number | null;
-  end_position: number | null;
-  end_fuel: number | null;
-  end_incidents: number | null;
+  // end attributes
+  end_time?: number;
+  end_position?: number;
+  end_fuel?: number;
+  end_incidents?: number;
 }
