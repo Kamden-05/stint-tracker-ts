@@ -1,0 +1,18 @@
+{
+  "name": "stint-tracker-ts",
+  "version": "1.0.0",
+  "description": "Stint tracker rewritten in typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 src/*.html dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && electron ./dist/app.js"
+  },
+  "author": "Kamden Wilson",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "electron": "^38.4.0",
+    "typescript": "^5.9.3"
+  }
+}
