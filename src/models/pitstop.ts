@@ -1,5 +1,5 @@
 export interface PitStopDto {
-  prev_stint_id: number;
+  stint_id: number;
 
   // start pit stop attributes
   road_enter_time: number;
@@ -14,7 +14,7 @@ export interface PitStopDto {
 }
 
 export class PitStop {
-  constructor(readonly prevStintId: number, readonly roadEnterTime: number) {}
+  constructor(readonly stintId: number, readonly roadEnterTime: number) {}
 
   serviceStartTime?: number;
   requiredRepairTime?: number;
@@ -47,7 +47,7 @@ export class PitStop {
 
   toDto(): PitStopDto {
     return {
-      prev_stint_id: this.prevStintId,
+      stint_id: this.stintId,
       road_enter_time: this.roadEnterTime,
       service_start_time: this.serviceStartTime,
       refuel_amount: this.refuelAmount,

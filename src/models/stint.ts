@@ -1,4 +1,5 @@
 export interface StintDto {
+  id: number;
   driver_name: string;
   number: number;
 
@@ -37,6 +38,7 @@ export class Stint {
 
   toDto(): StintDto{
     return {
+      id: this.stintId,
       driver_name: this.driverName,
       number: this.stintNumber,
       
