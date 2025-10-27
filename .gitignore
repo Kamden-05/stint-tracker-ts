@@ -8,3 +8,4 @@ yarn-error.log*
 Thumbs.debug
 .env
 *.sar
+eslint.config.mts
