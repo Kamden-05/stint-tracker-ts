@@ -14,10 +14,13 @@ export interface StintDto {
   end_position?: number;
   end_fuel?: number;
   end_incidents?: number;
+
+  is_complete: boolean;
 }
 
 export class Stint {
   laps: number[];
+  is_complete: boolean;
 
   constructor(
     readonly driverName: string,
@@ -28,6 +31,7 @@ export class Stint {
     readonly startIncidents: number,
   ) {
     this.laps = [];
+    this.is_complete = false;
   }
  
   stintId?: number;
@@ -53,6 +57,8 @@ export class Stint {
       end_position: this.endPosition,
       end_fuel: this.endFuel,
       end_incidents: this.endIncidents,
+
+      is_complete: this.is_complete
     }
   }
 }
