@@ -1,17 +1,17 @@
 class PitStop {
     constructor(
-        public readonly roadEnterTime: number,
+        public readonly road_enter_time: number,
     ) {
         
     }
 
     // start pit stop attributes
-    public serviceStartTime: number | null = null;
-    public requiredRepairTime: number | null = null;
-    public optionalRepairTime: number | null = null;
-    public refuelAmount: number | null = null;
-    public tireChange: boolean | null = null;
+    public service_start_time: number | null = null;
+    public required_repair_time: number | null = null;
+    public optional_repair_time: number | null = null;
+    public refuel_amount: number | null = null;
+    public tire_change: boolean | null = null;
     
     // end pit stop attributes
-    public serviceEndTime: number | null = null;
+    public service_end_time: number | null = null;    
 }

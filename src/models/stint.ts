@@ -1,16 +1,16 @@
 class Stint {
     constructor(
-        public readonly driverName: string,
-        public readonly stintNumber: number,
+        public readonly driver_name: string,
+        public readonly stint_number: number,
 
-        public readonly startTime: number,
-        public readonly startPosition: number,
-        public readonly startFuel: number,
-        public readonly startIncidents: number
+        public readonly start_time: number,
+        public readonly start_position: number,
+        public readonly start_fuel: number,
+        public readonly start_incidents: number
     ) { }
 
-    public endTime: number | null = null;
-    public endPosition: number | null = null;
-    public endFuel: number | null = null;
-    public endIncidents: number | null = null;
+    public end_time: number | null = null;
+    public end_position: number | null = null;
+    public end_fuel: number | null = null;
+    public end_incidents: number | null = null;
 }
