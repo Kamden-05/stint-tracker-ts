@@ -1,7 +1,5 @@
 class Stint {
     constructor(
-        public readonly sessionId: number,
-        public readonly stintId: number,
         public readonly driverName: string,
         public readonly stintNumber: number,
 
