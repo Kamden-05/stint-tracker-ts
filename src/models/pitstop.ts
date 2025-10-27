@@ -1,4 +1,4 @@
-export default interface PitStop {
+export interface PitStop {
   road_enter_time: number;
 
   // start pit stop attributes

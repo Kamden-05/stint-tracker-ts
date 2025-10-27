@@ -1,4 +1,4 @@
-export default interface Stint {
+export interface Stint {
   driver_name: string;
   stint_number: number;
 
