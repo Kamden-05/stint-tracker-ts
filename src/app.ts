@@ -1,4 +1,4 @@
 import { app, BrowserWindow } from 'electron';
-import Main from './electron-main';
+import Main from './gui/electron-main';
 
 Main.main(app, BrowserWindow);

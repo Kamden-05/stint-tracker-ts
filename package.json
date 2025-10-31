@@ -4,7 +4,7 @@
   "description": "Stint tracker rewritten in typescript",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && copyfiles -u 1 src/*.html dist",
+    "build": "tsc && copyfiles -u 1 src/gui/*.html dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && electron ./dist/app.js"
   },
