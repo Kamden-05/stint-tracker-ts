@@ -12,18 +12,18 @@ export default class ApiClient {
         })
      }
 
-    async getData<T>(endpoint: string): Promise<T> {
+    async getData(endpoint: string){
         const res = await this.client.get(endpoint)
         return res.data
     }
 
-    async postData<T>(endpoint: string, data: object): Promise<T> {
-        const res = await this.client.post(endpoint, data)
+    async postData(endpoint: string, payload: object){
+        const res = await this.client.post(endpoint, payload)
         return res.data
     }
 
-    async patchData<T>(endpoint: string, data: object): Promise<T> {
-        const res = await this.client.patch(endpoint, data)
+    async patchData(endpoint: string, payload: object){
+        const res = await this.client.patch(endpoint, payload)
         return res.data
     }
 }
