@@ -1,4 +1,4 @@
-# 🏁 iRacing Stint Tracker (Electron + TypeScript)
+# iRacing Stint Tracker (Electron + TypeScript)
 
 A desktop application built with **Electron** and **TypeScript** that connects to the **iRacing JavaScript SDK** and sends live race telemetry to the **iRacing Stint Tracker Backend**.
 
