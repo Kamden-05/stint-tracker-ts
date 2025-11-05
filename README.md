@@ -10,7 +10,7 @@ A desktop application built with **Electron** and **TypeScript** that connects t
 
 The **iRacing Stint Tracker** desktop app monitors your iRacing sessions and forwards live telemetry to the backend.  
 
-It connects to the **[iRacing JavaScript SDK](https://github.com/sajax/irsdkjs)** to capture telemetry data and sends it to the **[iRacing Stint Tracker Backend](https://github.com/Kamden-05/stint-tracker-server)** for storage and analysis.
+It connects to the **[iRacing JavaScript SDK](https://sajax.github.io/irsdkdocs/)** to capture telemetry data and sends it to the **[iRacing Stint Tracker Backend](https://github.com/Kamden-05/stint-tracker-server)** for storage and analysis.
 
 **Key features:**
 - Captures real-time telemetry from iRacing (laps, stints, pit stops, etc.).
