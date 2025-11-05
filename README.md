@@ -30,3 +30,9 @@ It connects to the **[iRacing JavaScript SDK](https://sajax.github.io/irsdkdocs/
 | Language       | TypeScript |
 | SDK            | [iRacing Node SDK](https://github.com/apihlaja/node-irsdk) |
 | Backend        | [iRacing Stint Tracker Backend](https://github.com/Kamden-05/stint-tracker-server) |
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
